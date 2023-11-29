@@ -4,5 +4,5 @@
 set -e
 
 curl -fsSL https://get.pnpm.io/install.sh | sh -
-\. /home/$(whoami)/.bashrc
+\. /home/$(whoami)/.zshrc
 pnpm i --global @angular/cli nx
