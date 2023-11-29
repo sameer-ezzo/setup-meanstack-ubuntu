@@ -1,4 +1,5 @@
 source /usr/share/zsh-antigen/antigen.zsh
+export SHELL=/bin/zsh
 
 export PATH=$HOME/bin:/usr/local/bin:/$HOME/.local/bin:$PATH
 export NVM_DIR=$HOME/.nvm
