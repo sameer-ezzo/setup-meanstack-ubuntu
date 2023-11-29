@@ -30,7 +30,7 @@ sudo apt clean
 # Create a directory for Zsh history
 mkdir -p "$HOME/zsh_history"
 touch "$HOME/zsh_history/.zsh_history"
-chown -R "$(whoami)" "$HOME/zsh_history"
+sudo chown -R "$(whoami)" "$HOME/zsh_history"
 
 # Copy the Zsh configuration template
 cp template.zshrc "$HOME/.zshrc"
